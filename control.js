@@ -1,36 +1,23 @@
-// Operators in  js
-// An operator is symbol that performs operations in one or more operands
-// 1. Arithmetiv=c operators
+// CONDITIONAL STATEMENTS IN JS
+//1. IF STATEMENT : ALLOWS YOU TO EXECUTE A BLOCK OF CODE IF A CERTAIN CONDITION IS TRUE
 
-
-let a = 10;
-let b = 10;
-
-console.log(` the value of {a} + {b} is ${a + b}`); //addition operator
-console.log(` the value of {a} % {b} is ${ a % b}`);//modulas operator
-console.log(` the value of {a} - {b} is ${a - b}`);//subtraction operator
-console.log(` the value of {a} * {b} is ${a * b}`); //multiplication operator
-console.log(` the value of {a} ** {b} is ${a ** b}`);// exponential operator
-console.log(` the value of {a}  is ${a++}`);//post-incremental operator
-console.log(` the value of {a} ++ is ${++a}`); //pre-increment operator
+// if statement
+//if(condition){
+    //code executed here if 
+//}
 
 
 
+//tenary operator:
+//condition ? expr1 : expr2
 
-
-// 2. Asssignemmet oparator
-let x = 10;
-let y = 20;
-let z =  15;
-
-x -=y;
+let y = 40;
+let x = y > 50 ? "greater" : "lesser";
 console.log(x);
 
-// Logical operators
-let x3 = 10;
-let y3 = 20;
 
-console.log(x3 == y3 && x3 < y3); //AND LOGICAL OPERATOR
-console.log(x3 == y3 || x3 < y3); //OR Operator
-console.log(!(x3 == y3)); //logical opertor
+//condition && expr1 {if statement}
 
+let q= 69;
+let result = q == 60 && "greater";
+console.log(result);
